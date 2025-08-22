@@ -6,30 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE2E57D62E58D94300081ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2E57CB2E58D94300081ECB /* Assets.xcassets */; };
+		BE2E57D82E58D94300081ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2E57CE2E58D94300081ECB /* LaunchScreen.storyboard */; };
+		BE2E57D92E58D94300081ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2E57D02E58D94300081ECB /* Main.storyboard */; };
+		BE2E57DA2E58D94300081ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E57CA2E58D94300081ECB /* AppDelegate.swift */; };
+		BE2E57DB2E58D94300081ECB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E57D12E58D94300081ECB /* SceneDelegate.swift */; };
+		BE2E57DC2E58D94300081ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E57D22E58D94300081ECB /* ViewController.swift */; };
+		BE2E57DD2E58D94300081ECB /* VoiceChanger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE2E57D32E58D94300081ECB /* VoiceChanger.xcdatamodeld */; };
+		BE2E57DF2E58E2D600081ECB /* SB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE2E57DE2E58E2D600081ECB /* SB.mp3 */; };
+		BE2E57E52E58E5C700081ECB /* VoicePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E57E42E58E5C600081ECB /* VoicePreset.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE2E57AF2E58D93B00081ECB /* VoiceChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2E57CA2E58D94300081ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2E57CB2E58D94300081ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2E57CC2E58D94300081ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2E57CD2E58D94300081ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2E57CF2E58D94300081ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2E57D12E58D94300081ECB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE2E57D22E58D94300081ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE2E57D52E58D94300081ECB /* VoiceChanger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoiceChanger.xcdatamodel; sourceTree = "<group>"; };
+		BE2E57DE2E58E2D600081ECB /* SB.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SB.mp3; sourceTree = "<group>"; };
+		BE2E57E42E58E5C600081ECB /* VoicePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePreset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE2E57C42E58D93D00081ECB /* Exceptions for "VoiceChanger" folder in "VoiceChanger" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE2E57AE2E58D93B00081ECB /* VoiceChanger */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE2E57B12E58D93B00081ECB /* VoiceChanger */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE2E57C42E58D93D00081ECB /* Exceptions for "VoiceChanger" folder in "VoiceChanger" target */,
-			);
-			path = VoiceChanger;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE2E57AC2E58D93B00081ECB /* Frameworks */ = {
@@ -45,7 +46,7 @@
 		BE2E57A62E58D93B00081ECB = {
 			isa = PBXGroup;
 			children = (
-				BE2E57B12E58D93B00081ECB /* VoiceChanger */,
+				BE2E57D42E58D94300081ECB /* VoiceChanger */,
 				BE2E57B02E58D93B00081ECB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +57,55 @@
 				BE2E57AF2E58D93B00081ECB /* VoiceChanger.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2E57D42E58D94300081ECB /* VoiceChanger */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E57E02E58E57400081ECB /* System */,
+				BE2E57E32E58E5A500081ECB /* Model */,
+				BE2E57E22E58E59500081ECB /* View */,
+				BE2E57E12E58E58800081ECB /* Controller */,
+				BE2E57CB2E58D94300081ECB /* Assets.xcassets */,
+				BE2E57CC2E58D94300081ECB /* Info.plist */,
+				BE2E57D32E58D94300081ECB /* VoiceChanger.xcdatamodeld */,
+				BE2E57DE2E58E2D600081ECB /* SB.mp3 */,
+			);
+			path = VoiceChanger;
+			sourceTree = "<group>";
+		};
+		BE2E57E02E58E57400081ECB /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E57CA2E58D94300081ECB /* AppDelegate.swift */,
+				BE2E57D12E58D94300081ECB /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BE2E57E12E58E58800081ECB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E57D22E58D94300081ECB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE2E57E22E58E59500081ECB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E57D02E58D94300081ECB /* Main.storyboard */,
+				BE2E57CE2E58D94300081ECB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE2E57E32E58E5A500081ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E57E42E58E5C600081ECB /* VoicePreset.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +122,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE2E57B12E58D93B00081ECB /* VoiceChanger */,
 			);
 			name = VoiceChanger;
 			packageProductDependencies = (
@@ -122,6 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2E57D62E58D94300081ECB /* Assets.xcassets in Resources */,
+				BE2E57D82E58D94300081ECB /* LaunchScreen.storyboard in Resources */,
+				BE2E57DF2E58E2D600081ECB /* SB.mp3 in Resources */,
+				BE2E57D92E58D94300081ECB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +183,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2E57DA2E58D94300081ECB /* AppDelegate.swift in Sources */,
+				BE2E57DB2E58D94300081ECB /* SceneDelegate.swift in Sources */,
+				BE2E57E52E58E5C700081ECB /* VoicePreset.swift in Sources */,
+				BE2E57DC2E58D94300081ECB /* ViewController.swift in Sources */,
+				BE2E57DD2E58D94300081ECB /* VoiceChanger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE2E57CE2E58D94300081ECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2E57CD2E58D94300081ECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2E57D02E58D94300081ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2E57CF2E58D94300081ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE2E57C62E58D93D00081ECB /* Debug */ = {
@@ -333,6 +408,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE2E57D32E58D94300081ECB /* VoiceChanger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE2E57D52E58D94300081ECB /* VoiceChanger.xcdatamodel */,
+			);
+			currentVersion = BE2E57D52E58D94300081ECB /* VoiceChanger.xcdatamodel */;
+			path = VoiceChanger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE2E57A72E58D93B00081ECB /* Project object */;
 }
